@@ -1,1 +1,1 @@
-Kaip cia foldersiu reikia sukurti
+, nesvarbu, suzinojau kaip
