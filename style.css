@@ -205,3 +205,92 @@ footer {
     background-size: cover;
     background-position: center;
 }
+.contact-info{
+    font-size:25px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background:fixed;
+    
+}
+.contact-info p,strong{
+    background:fixed;
+}
+.forma{
+    margin:auto;
+    text-align: center;
+    background:fixed;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px;
+    font-size:20px;
+}
+.forma fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 3px black;
+    border-radius: 8px;
+    min-width: 200px;
+    max-width: 40%;
+    align-items:center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.forma label{
+    display: block;
+    margin-top: 1em;
+}
+.forma label:first-of-type{
+    margin-top:0;
+}
+.forma input{
+    padding: 0.5em;
+    border: solid 2px black;
+    display:flex;
+    margin:auto;
+
+}
+.forma input[type="email"], input[type="text"]{
+    width: 18em;
+}
+.forma textarea{
+    min-height: 8em;
+    min-width: 50%;
+    padding: 0.5em;
+    border: solid 2px black;
+}
+.forma input[type="submit"]{
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    background-color: #0088a9;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.forma input[type="submit"]:hover{
+background-color: rgba(0,136,169,0.7);
+}
+form{
+    background:fixed;
+    margin-bottom: 137px;
+}
+.contactbackground{
+    justify-content: center;
+ 
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://c1.wallpaperflare.com/preview/967/303/707/vintage-boards-wood-the-background-texture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media  screen and(min-width:430px) {
+    .forma fieldset,textarea{
+        width: 40%;
+        min-width: 320px;
+        margin:auto;
+    }
+}
