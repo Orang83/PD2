@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruda:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+    font-family: "Ruda", sans-serif;
+    font-weight: 500;
+    color:aliceblue;
+}
+li, a, button, .navbar, .header{
+    font-family: "Ruda", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:aliceblue;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px, 10%;
+    background-color: #1f2024;
+}
+.logo{
+    cursor:pointer;
+    margin-right: auto;
+    height: 75px;
+    background-color: #1f2024;
+}
+.nav_links{
+    list-style: none;
+    background-color: #17181b;
+    display:flex;
+    padding: 25px 16px;
+    justify-content: center;
+    border-radius: 8px;
+}
+.nav_links li {
+    display:flex;
+    padding: 0px 20px;
+    background-color: #17181b;
+    height: max-content;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    background-color: #17181b;
+    height:fit-content;
+}
+.nav_links li a:hover{
+    color:#0088a9;
+    background-color: #17181b;
+}
+button{
+    margin-left:5px;
+    padding: 25px 16px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    background-color: rgba(0,136,169,0.7);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+footer {
+    text-align: center;
+    padding: 20px 1%;
+    background-color: #24252A;
+    color: aliceblue;
+    font-size: 16px;
+    width: 100%;
+}
+.reviews{
+    position:absolute;
+    background: fixed;
+    text-align: right;
+    bottom: 0;
+    margin-bottom: 75px;
+    margin-left: 1340px;
+}
+.reviews h{
+    background: fixed;
+    font-size: 25px;
+}
+.reviews p{
+    font-size: 15px;
+    background: fixed;
+}
+.homemain{
+    font-size:50px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://data.moonscdn.com/prompt/slices/2/watermarked/happy-person-grocery-cart-dance_RLxtI.png);
+    background-size: cover;
+    background-position: center;
+}
+.welcome{
+    background:none;
+}
+.welcome p{
+    background:fixed;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.welcome .btn{
+    background:fixed;
+}
+.info{
+    font-size:50px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background:none;
+}
+.info p{
+    background:fixed;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1300px;  
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+}
+.product img{
+        width: 100%;
+        height: 500px;
+        object-fit:fill;
+        border-radius: 8px;
+    }
+.shopbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.unsplash.com/photo-1581264669997-3f222f331aaa?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdyb2NlcnklMjBzdG9yZSUyMGFpc2xlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+.price-drawer button{
+    height: 70px;
+    width:auto;
+    margin-left:5px;
+    margin-top: 5px;
+    padding: 25px 16px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.price-drawer button:hover{
+    background-color: rgba(0,136,169,0.7);
+}
+.product h2{
+    font-size: 35px;
+}
+.product p{
+    font-style:italic;
+}
+.about h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size:35px;
+    margin-bottom: 50px;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1100px; 
+    padding: 20px;
+    border-radius: 8px;
+}
+.gallery img{
+    width: 700px;
+    height: 500px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.gallery p{
+    font-size:25px;
+    margin-left: 20px;
+    border:black;
+    border-width: 2px;
+}
+.about{
+    background:fixed;
+}
+.aboutbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://cdn.discordapp.com/attachments/1181627141490749561/1315825850398150737/image.png?ex=6758d1d1&is=67578051&hm=5b2c49e866f0120f4e78c7bfa6d455b46cc8a613c8100755fe7f283f096df836&);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+}
+.contact-info{
+    font-size:25px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background:fixed;
+    
+}
+.contact-info p,strong{
+    background:fixed;
+}
+.forma{
+    margin:auto;
+    text-align: center;
+    background:fixed;
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px;
+    font-size:20px;
+}
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 3px black;
+    border-radius: 8px;
+    min-width: 200px;
+    max-width: 32%;
+    align-items:center;
+    margin-left:auto;
+    margin-right: auto;
+    max-height: 520px;
+}
+
+.forma label{
+    display: block;
+    margin-top: 1em;
+}
+.forma label:first-of-type{
+    margin-top:0;
+}
+.forma input{
+    padding: 0.5em;
+    border: solid 2px black;
+    display:flex;
+    margin:auto;
+
+}
+.forma input[type="email"], input[type="text"], input[type="password"],input[type="password2"],input[type="name"],input[type="lastname"]{
+    width: 18em;
+}
+.forma textarea{
+    min-height: 8em;
+    min-width: 50%;
+    padding: 0.5em;
+    border: solid 2px black;
+}
+.forma input[type="submit"]{
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    background-color: #0088a9;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.forma input[type="submit"]:hover{
+background-color: rgba(0,136,169,0.7);
+}
+form{
+    background:fixed;
+    margin-bottom: 78px;
+}
+.contactbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/d7c0f145-60ab-4efb-840b-f66d28956084/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media  screen and(min-width:430px) {
+    .forma fieldset,textarea,submit{
+        width: 40%;
+        min-width: 320px;
+        margin:auto;
+    }
+}
+.registrate{
+    font-style:italic;
+    color:#0088a9;
+}
+.loginbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/d7c0f145-60ab-4efb-840b-f66d28956084/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 255px;
+}
+.registerbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/d7c0f145-60ab-4efb-840b-f66d28956084/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 125px;
+}
