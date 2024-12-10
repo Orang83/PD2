@@ -82,7 +82,23 @@ footer {
     font-size: 16px;
     width: 100%;
 }
-.row{
+.reviews{
+    position:absolute;
+    background: fixed;
+    text-align: right;
+    bottom: 0;
+    margin-bottom: 75px;
+    margin-left: 1340px;
+}
+.reviews h{
+    background: fixed;
+    font-size: 25px;
+}
+.reviews p{
+    font-size: 15px;
+    background: fixed;
+}
+.homemain{
     font-size:50px;
     text-align: center;
     justify-content: center;
@@ -153,4 +169,39 @@ footer {
 }
 .product p{
     font-style:italic;
+}
+.about h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size:35px;
+    margin-bottom: 50px;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1100px; 
+    padding: 20px;
+    border-radius: 8px;
+}
+.gallery img{
+    width: 700px;
+    height: 500px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.gallery p{
+    font-size:25px;
+    margin-left: 20px;
+    border:black;
+    border-width: 2px;
+}
+.about{
+    background:fixed;
+}
+.aboutbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://cdn.discordapp.com/attachments/1181627141490749561/1315825850398150737/image.png?ex=6758d1d1&is=67578051&hm=5b2c49e866f0120f4e78c7bfa6d455b46cc8a613c8100755fe7f283f096df836&);
+    background-size: cover;
+    background-position: center;
 }
