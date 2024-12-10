@@ -148,6 +148,7 @@ footer {
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.unsplash.com/photo-1581264669997-3f222f331aaa?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdyb2NlcnklMjBzdG9yZSUyMGFpc2xlfGVufDB8fDB8fHww);
     background-size: cover;
     background-position: center;
+    padding-bottom: 100px;
 }
 .price-drawer button{
     height: 70px;
@@ -204,6 +205,7 @@ footer {
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://cdn.discordapp.com/attachments/1181627141490749561/1315825850398150737/image.png?ex=6758d1d1&is=67578051&hm=5b2c49e866f0120f4e78c7bfa6d455b46cc8a613c8100755fe7f283f096df836&);
     background-size: cover;
     background-position: center;
+    padding-bottom: 100px;
 }
 .contact-info{
     font-size:25px;
@@ -226,16 +228,17 @@ footer {
     padding: 20px;
     font-size:20px;
 }
-.forma fieldset{
+fieldset{
     margin: 2em 0;
     padding: 1em 2em;
     border: solid 3px black;
     border-radius: 8px;
     min-width: 200px;
-    max-width: 40%;
+    max-width: 32%;
     align-items:center;
     margin-left:auto;
     margin-right: auto;
+    max-height: 520px;
 }
 
 .forma label{
@@ -252,7 +255,7 @@ footer {
     margin:auto;
 
 }
-.forma input[type="email"], input[type="text"]{
+.forma input[type="email"], input[type="text"], input[type="password"],input[type="password2"],input[type="name"],input[type="lastname"]{
     width: 18em;
 }
 .forma textarea{
@@ -269,7 +272,7 @@ footer {
     font-size: 1em;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -278,19 +281,36 @@ background-color: rgba(0,136,169,0.7);
 }
 form{
     background:fixed;
-    margin-bottom: 137px;
+    margin-bottom: 78px;
 }
 .contactbackground{
     justify-content: center;
- 
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://c1.wallpaperflare.com/preview/967/303/707/vintage-boards-wood-the-background-texture.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/d7c0f145-60ab-4efb-840b-f66d28956084/1.jpg);
     background-size: cover;
     background-position: center;
 }
 @media  screen and(min-width:430px) {
-    .forma fieldset,textarea{
+    .forma fieldset,textarea,submit{
         width: 40%;
         min-width: 320px;
         margin:auto;
     }
+}
+.registrate{
+    font-style:italic;
+    color:#0088a9;
+}
+.loginbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/d7c0f145-60ab-4efb-840b-f66d28956084/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 255px;
+}
+.registerbackground{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/d7c0f145-60ab-4efb-840b-f66d28956084/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 125px;
 }
