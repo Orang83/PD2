@@ -11,6 +11,8 @@
     <meta http-equiv="refresh" content="300">
     <title>Specas.lt</title>
     <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <script src="https://kit.fontawesome.com/f6fe748df9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -26,10 +28,59 @@
             </nav>
             <a class="cta" href="cart.html"><button>Krepšelis</button></a>
     </header>
-    <body>
         <main>
-            <div class="aboutbackground">
+            <div class="cartbackground">
             <div class="info">
-                <p>Krėpšelis</p>
+                <p>Krepšelis</p>
             </div>
+            <div class="cart">
+                <table>
+                    <thead>
+                       <tr>
+                            <td>Pašalinti</td>
+                            <td></td>
+                            <td>Prekė</td>
+                            <td>Kaina</td>
+                            <td>Kiekis</td>
+                            <td>Bendroji Suma</td>
+                       </tr> 
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#"><i class="fa-regular fa-circle-xmark fa-2x"></i></a></td>  <!--Šitas mygtukas turi ištrint preke is shopping carto, kazkaip padarykit kad kol nera prekiu jo nerodytu-->
+                            <td><img src=""alt=""></td>
+                            <td class="name"></td>
+                            <td class="price"></td>
+                            <td><input type="number" value="1"min="1" max="99"></td>
+                            <td class="subtotal"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+                <div class="total">
+                    <h3>Krepšelio suma</h3> 
+                   <table>
+                    <tr>
+                        <td>Iš viso už prekes</td>
+                        <td class="finalprice"></td>
+                    </tr>
+                    <tr>
+                        <td>Siuntimas</td>
+                        <td>Nemokamai</td>
+                    </tr>
+                    <tr>
+                        <td><strong></strong>Suma</td>
+                        <td class="finalprice"><strong></strong></td>
+                    </tr>
+                   </table>
+                   <button>Pirkti</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Specas.lt Visos teisės saugomos.</p>
+        </footer>
+    </body>
+    </html>
     
