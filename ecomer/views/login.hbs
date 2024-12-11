@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon" href="https://steamuserimages-a.akamaihd.net/ugc/1018320607931406465/3312D8310D944C1C37A88B5F3DB3DB201AA9EB6E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Specas.lt Internet shop login page">
+    <meta name="keywords" content="shop, goods, online, sale,specas.lt,cheap, login">
+    <meta name="author" content="Gedvydas Kleberis, Vilius Kučejevas, Aleksandras Čupinas, Jordanas Surblys">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="refresh" content="300">
     <title>Registracija</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/ecomer/public/style.css">
+    <script src="/ecomer/app.js"></script>
 </head>
 <body>
     <header>
         <img class="logo" src="/img/Specaslt.png" alt="Logo">
         <nav>
             <ul class="nav_links">
-                    <li><a href="/">Pagrindinis</a></li>
-                    <li><a href="/products">Produktai</a></li>
-                    <li><a href="/about">Apie Mus</a></li>
-                    <li><a href="/contacts">Kontaktai</a></li>
-                    <li><a href="/login">Prisijungti</a></li>
+                    <li><a href="/ecomer/views/index.hbs">Pagrindinis</a></li>
+                    <li><a href="/ecomer/views/products.hbs">Produktai</a></li>
+                    <li><a href="/ecomer/views/about.hbs">Apie Mus</a></li>
+                    <li><a href="/ecomer/views/contacts.hbs">Kontaktai</a></li>
+                    <li><a href="/ecomer/views/login.hbs">Prisijungti</a></li>
             </ul>
         </nav>
-        <a class="cta" href="/cart"><button>Krepšelis</button></a></header>
-    <main>
+        <a class="cta" href="/ecomer/views/cart.hbs"><button>Krepšelis</button></a>
+</header>
 <div class="loginbackground">
     <div class="info">
         <p>Prisijungimas</p>
     </div>
-    <div class="forma">
-    <form action="/auth/login" method="POST">
+ <div class="forma">
+    <form action="#">
         <fieldset>
         <label for="email">Elektroninis paštas</label>
         <input type="email" id="email" name="email" placeholder="Įveskite elektroninį paštą" required>
@@ -33,7 +40,7 @@
         <input type="password" id="password" name="password" placeholder="Įveskite slaptažodį" required>
         <input type="submit" id="submit" value="Prisijungti"></input>
         <p>
-            Neturite paskyros? <a class="registrate" href="/registration">Registruokitės čia</a>.
+            Neturite paskyros? <a class="registrate" href="registration.html">Registruokitės čia</a>.
         </p>
     </fieldset>
     {{#if message}}
